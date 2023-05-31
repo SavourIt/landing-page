@@ -10,7 +10,7 @@ export default function ComingSoon() {
       <Heading as="h2" size="xl" mt={6} mb={2}>
         Coming Soon
       </Heading>
-      <Text color={'gray.500'}>
+      <Text color={'gray.600'}>
         This site is still under construction, check back soon to  find more information about what we do!
       </Text>
     </Box>
