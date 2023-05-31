@@ -1,9 +1,9 @@
 "use client"
 
 import { Inter } from 'next/font/google'
-import HeroSection from '@/components/HeroSection'
-import Contact from '@/components/Contact'
-import Features from '@/components/Features'
+import HeroSection from '../components/HeroSection'
+import Contact from '../components/Contact'
+import Features from '../components/Features'
 
 const inter = Inter({ subsets: ['latin'] })
 

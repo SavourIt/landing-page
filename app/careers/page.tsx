@@ -1,8 +1,6 @@
 "use client"
 
-import ComingSoon from '@/components/ComingSoon'
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
+import ComingSoon from '../../components/ComingSoon'
 import React from 'react'
 
 function Page() {
