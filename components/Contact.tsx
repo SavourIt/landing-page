@@ -79,7 +79,7 @@ export default function Contact() {
                     fontSize="3xl"
                     icon={<MdEmail />}
                     _hover={{
-                      bg: 'blue.500',
+                      bg: 'red.400',
                       color: useColorModeValue('white', 'gray.700'),
                     }}
                     onClick={onCopy}
@@ -87,14 +87,14 @@ export default function Contact() {
                   />
                 </Tooltip>
 
-                <Link href="#">
+                <Link href="https://www.linkedin.com/company/savourit" target="_blank">
                   <IconButton
                     aria-label="linkedin"
                     variant="ghost"
                     size="lg"
                     icon={<BsLinkedin size="28px" />}
                     _hover={{
-                      bg: 'blue.500',
+                      bg: 'red.400',
                       color: useColorModeValue('white', 'gray.700'),
                     }}
                     isRound
@@ -143,11 +143,11 @@ export default function Contact() {
                   </FormControl>
 
                   <Button
-                    colorScheme="blue"
-                    bg="blue.400"
-                    color="white"
+                    className="shadow-md"
+                    bg="red.400"
+                    color="red.400"
                     _hover={{
-                      bg: 'blue.500',
+                      bg: 'red.500',
                     }}
                     >
                     Send Message

@@ -9,10 +9,8 @@ import React from 'react'
 function Page() {
   return (
     <main>
-      <Navbar />
       <RestaurantFeatures />
       <RestaurantStatistics />
-      <Footer />
     </main>
   )
 }
