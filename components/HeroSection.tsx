@@ -99,9 +99,8 @@ export default function HeroSection() {
               width={360}
               height={720}
               className="object-fill"
-              src={
-                demo
-              }
+              src="https://savourit-images.s3.amazonaws.com/demo.gif"
+              loading="lazy"
             />
           </Box>
         </Flex>
