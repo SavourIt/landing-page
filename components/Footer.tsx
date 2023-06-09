@@ -59,13 +59,13 @@ export default function Footer() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Product</ListHeader>
-            <Link href={'#'}>Overview</Link>
-            <Link href={'#'}>Features</Link>
+            <Link href={'/'}>Overview</Link>
+            <Link href={'/'}>Features</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About</Link>
-            <Link href={'#'}>Careers</Link>
+            <Link href={'/'}>About</Link>
+            <Link href={'/careers'}>Careers</Link>
             <Link href={'#'}>Contact</Link>
             <Link href={'#'}>Partners</Link>
           </Stack>
@@ -79,7 +79,7 @@ export default function Footer() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Follow Us</ListHeader>
-            <Link href={'#'}>LinkedIn</Link>
+            <Link href={'https://www.linkedin.com/company/savouritapp'} target="_blank">LinkedIn</Link>
           </Stack>
         </SimpleGrid>
       </Container>

@@ -59,7 +59,7 @@ export default function CustomerFeatures() {
   return (
     <Box p={4}>
       <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-        <Heading fontSize={'3xl'}>Save Money with Savour<Text as="span" className="text-red-400">It</Text></Heading>
+        <Heading fontSize={'6xl'}>Save Money with Savour<Text as="span" className="text-red-400">It</Text></Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
           Take advantage of restaurant overproduction and save money
         </Text>
@@ -83,7 +83,11 @@ export default function CustomerFeatures() {
         */}
       </Container>
       <Container maxW={'5xl'} mt={12}>
+      <Heading className="text-center mb-8" fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
+          How it Works
+        </Heading>
         <Flex flexWrap="wrap" gridGap={6} justify="center">
+          
           <Card
             heading={'Restaurants'}
             icon={<Icon as={FcClock} w={10} h={10} />}
